@@ -57,6 +57,7 @@ const copyText = async () => {
             "image/jpeg": [],
             "image/png": [],
             "image/jpg": [],
+            "application/pdf":[]
           }}
           onDrop={(acceptedFiles, rejectedFiles) => {
             setLoading(true);
