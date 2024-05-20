@@ -27,7 +27,7 @@ function App() {
     formData.append("file", acceptedFiles[0]);
 
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", `http://localhost:8001/api/upload`);
+    xhr.open("POST", `https://joshpay-backend.onrender.com/api/upload`);
 
     xhr.addEventListener("load", (event) => {
       setLoading(false);
